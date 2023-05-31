@@ -30,9 +30,6 @@ nav img {
   height: 65px;
 }
 
-nav div {
-}
-
 nav ul {
   display: flex;
   list-style: none;
@@ -77,18 +74,66 @@ main {
 
 .mainBanner {
   display: flex;
-  margin: 50px 0 0;
+  justify-content: space-between;
+  margin: 100px 0 0;
   padding: 0 0 40px;
   border-bottom: rgb(229, 151, 40, 0.75) solid 2px;
+  height: 400px;
 }
 
 .mainBanner div {
-  flex: 1;
+  width: 45%;
 }
+
+.mainBanner h1 {
+    font-size: 4rem;
+    line-height: 0.9;
+    padding: 0 0 15px;
+}
+
+.mainBanner h1 span {
+    color: rgb(229, 151, 40);
+}
+
+.mainBanner p {
+    font-size: 0.9rem;
+}
+
+.mainBannerText :nth-child(2) {
+    padding: 0 0 15px;
+}
+
+.mainBannerText :nth-child(3) {
+    padding: 0 0 15px;
+}
+
+.mainBannerText :nth-child(4) {
+    padding: 0 0 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.mainBannerText  a {
+    background-color: rgb(229, 151, 40);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    border-radius: 5px;
+    /* transition: 0.5s; */
+  }
+  
+  .mainBannerText  a:hover {
+    background-color: rgb(229, 151, 40, 0.75);
+    color: rgb(255, 255, 255);
+  }
+
+
+
 
 .mainBanner img {
   width: 100%;
-  height: auto;
+  height: 400px;
+  object-fit: cover;
   border-radius: 10px;
 }
 
