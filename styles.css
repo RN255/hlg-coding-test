@@ -382,8 +382,10 @@ main {
   }
 
   .mainBanner img {
-    margin-top: 25px;
     height: 200px;
+    width: 80%;
+    margin: 25px auto 0;
+    display: block;
   }
 
   /* project links  */
@@ -394,6 +396,12 @@ main {
 
   .projectLinks div h2 {
     font-size: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  .mainBanner img {
+    width: 100%;
+    margin: 25px 0 0;
   }
 }
 
